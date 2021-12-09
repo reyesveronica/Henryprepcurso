@@ -1,0 +1,59 @@
+.cardContainer {
+
+    border: 1px solid rgb(230, 226, 204);
+    background-image: url("../images/bkgCocina.jpg");
+    background-position: absolute;
+    background: cover;
+    box-shadow: 2px 2px 2px rgb(223, 208, 124);
+    color: rgb(8, 8, 8);
+    display: inline-block;
+    margin: 10%;
+    padding: 2em;
+    vertical-align: center;
+    width: 33, 5%;
+}
+
+.cardContainer h3 {
+
+    display: flex;
+    text-align: center;
+    width: 250px;
+    margin-top: 5px;
+    color: rgb(223, 208, 124);
+    text-shadow: rgb(8, 8, 8) -2px 2px;
+}
+
+.cardContainer h3:hover {
+
+    text-decoration: underline darkslategrey;
+    color: rgb(69, 70, 63);
+    text-shadow: rgb(223, 208, 124) -0.5px 0.5px;
+}
+.cardContainer img {
+
+    display: flex;
+    margin-left: 20%;
+}
+
+.cardContainer img:hover {
+
+    border: 2px outset rgba(119, 98, 28, 0.8);
+}
+.elegirDieta {
+
+    color: rgb(223, 208, 124);
+    text-decoration: underline;
+    margin-bottom: 7px;
+    margin-top: 9px;
+}
+.score {
+
+    color: rgb(223, 208, 124);
+    float: right;
+}
+
+.content {
+    text-align: center;
+    display:flex;
+    align-items: center;
+}
